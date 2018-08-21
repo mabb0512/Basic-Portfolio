@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background: white;
+    margin: 0   auto;
+    height:60px;
+    border-bottom: solid;
+    border-color: lightgray;
+}
+
+#menu {
+    clear: both;
+    width: 800px;
+    margin: 0   auto;
+}
+
+.box {
+    width: 800px;
+    margin: 0   auto;
+    border: solid;
+    border-color: lightgray;
+    margin-top: 20px !important;
+}
+
+.name {
+    float: left;
+    background: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 9px;
+    font-family: sans-serif;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+a :visited {
+    color: gray;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+.box-title {
+    border-bottom: solid;
+    border-color: lightgray;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+#pic1 {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+section {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+content {
+    overflow: auto;
+}
+
+p {
+    font-size: 20px;
+    margin: 0 20px 20px 0;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+.portfolio-pic {
+    width: 150px;
+    height: 200px;
+}
+
+#pic-holder2 {
+    clear: both;
+    padding-top: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea[type=textarea] {
+    width: 100%;
+    height: 150px;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: lightblue;
+    padding: 10px 25px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container1 {
+    position: relative;
+    float: left; 
+    padding-right: 50px;   
+}
+
+.container2 {
+    position: relative;  
+}
+
+.container-title {
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    top: 165px;
+    padding: 5px;
+    background-color: lightblue;
+}
+
+.container-left {
+    left: 200px;
+ }
+
+footer {
+    clear: both;
+    background: lightblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: solid;
+    border-color: lightgray;
+    text-align: center;
+    height: 60px;
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+
+
+
