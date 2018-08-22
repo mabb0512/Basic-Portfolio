@@ -141,23 +141,13 @@ input[type=submit]:hover {
     background-color:   rgb(0, 162, 255);
 }
 
-.container1 {
+.pic-container1 {
     position: relative;
     float: left; 
     padding-right: 50px;   
 }
 
-.container2 {
-    position: relative;  
-}
-
-.container3 {
-    position: relative;
-    float: left; 
-    padding-right: 50px;   
-}
-
-.container4 {
+.pic-container2 {
     position: relative;  
 }
 
